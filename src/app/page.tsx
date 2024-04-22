@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import Title from "./Title/Title";
 import Projects from "./Projects/Projects";
 import About from "./About/About";
+import Contact from "./Contact/Contact";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Title />
       <Projects />
       <About />
+      <Contact />
     </main>
   );
 }
