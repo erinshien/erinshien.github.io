@@ -8,10 +8,38 @@
   src: url("../../../fonts/Figtree-VariableFont_wght.ttf") format("ttf");
 }
 
-.h1 {
+.title {
+  background-color: #FFFDFC;
+  height: 90vh;
+  width: 100vw;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.image {
+  position: absolute;
+  top: 84.25px;
+  right: 200px;
+}
+
+.firstNames {
   font-family: "Grifter";
+  font-size: 8rem;
+  color: #233B3B;
+  margin-top: 20rem;
+  position: relative;
+}
+
+.surname {
+  font-family: "Grifter";
+  font-size: 8rem;
+  color: #233B3B;
+  margin-top: 0;
 }
 
 .p {
   font-family: "Figtree";
+  font-size: 2rem;
+  color: #233B3B;
+  margin-top: 0;
 }
