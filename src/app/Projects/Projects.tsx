@@ -5,43 +5,43 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 
 const icons = [
   {
-    imageUrl: "/../../../images/HTML5.png",
+    imageUrl: "/HTML5.png",
     alt: "HTML icon",
   },
   {
-    imageUrl: "/../../../images/CSS3.png",
+    imageUrl: "/CSS3.png",
     alt: "CSS icon",
   },
   {
-    imageUrl: "/../../../images/Javascript.png",
+    imageUrl: "/Javascript.png",
     alt: "JavaScript icon",
   },
   {
-    imageUrl: "/../../../images/TypeScript.png",
+    imageUrl: "/TypeScript.png",
     alt: "TypeScript icon",
   },
   {
-    imageUrl: "/../../../images/React.png",
+    imageUrl: "/React.png",
     alt: "React icon",
   },
   {
-    imageUrl: "/../../../images/Nextjs.png",
+    imageUrl: "/Nextjs.png",
     alt: "Next.js icon",
   },
   {
-    imageUrl: "/../../../images/Figma.png",
+    imageUrl: "/Figma.png",
     alt: "Figma icon",
   },
   {
-    imageUrl: "/../../../images/Nodejs.png",
+    imageUrl: "/Nodejs.png",
     alt: "Node.js icon",
   },
   {
-    imageUrl: "/../../../images/Shape.png",
+    imageUrl: "/Shape.png",
     alt: "Git icon",
   },
   {
-    imageUrl: "/../../../images/Postman.png",
+    imageUrl: "/Postman.png",
     alt: "Postman icon",
   }
 ];
@@ -54,7 +54,7 @@ export default function Projects() {
       <h2 className={styles.h2}>MY PROJECTS</h2>
       <div className={styles.projectCards}>
         <ProjectCard 
-        image="/../../../images/placeholder.png" 
+        image="/placeholder.png" 
         alt="placeholder" 
         title="FINAL PROJECT" 
         description="App of some sort to solve a problem as described by stakeholders. More info about the project like the problem itself and the features of the app. More words and stuff." 

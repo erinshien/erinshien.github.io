@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Grifter";
+  src: url("../../../fonts/GRIFTER-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("../../../fonts/Figtree-VariableFont_wght.ttf") format("ttf");
+}
+
+.about {
+  background-color: #FFFDFC;
+  height: 100vh;
+  width: 100vw;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.h2 {
+  font-family: "Grifter";
+  font-size: 4rem;
+  color: #233B3B;
+  padding-top: 1.5rem;
+  text-align: right;
+}

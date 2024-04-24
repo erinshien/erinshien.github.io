@@ -1,15 +1,15 @@
 import 'react';
-import './About.module.css';
+import styles from './About.module.css';
 
 import Image from 'next/image'
 
 export default function About() {
   return (
-    <section id="about">
+    <section className={styles.about} id="about">
       <div>
-        <h2>ABOUT ME</h2>
+        <h2 className={styles.h2}>ABOUT ME</h2>
         <Image
-          src=""
+          src="/image2.png"
           width={500}
           height={500}
           alt="Illustration of Erin at a desk"

@@ -4,7 +4,7 @@
 }
 
 .projects {
-  background-image: url(../../../images/mesh-gradient1.png);
+  background-image: url('/mesh-gradient1.png');
   height: 150vh;
   width: 100vw;
   padding-left: 8rem;

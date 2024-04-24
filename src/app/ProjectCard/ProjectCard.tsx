@@ -25,8 +25,8 @@ export default function ProjectCard({ image, alt, title, description, icons, liv
     <div className={styles.container}>
       <Image
         src={image}
-        width={1080}
         height={680}
+        width={1080}
         alt={alt}
       />
       <div>
