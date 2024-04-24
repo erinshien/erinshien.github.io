@@ -1,1 +1,24 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("../../../fonts/Figtree-VariableFont_wght.ttf") format("ttf");
+}
 
+.header {
+  background-color: #FFFDFC;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 2rem;
+  padding-right: 2dvh;
+}
+
+.header a {
+  color: #233B3B;
+  font-family: "Figtree";
+  font-size: 1rem;
+  text-decoration: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Grifter";
+  src: url("../../../fonts/GRIFTER-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("../../../fonts/Figtree-VariableFont_wght.ttf") format("ttf");
+}
+
+.h1 {
+  font-family: "Grifter";
+}
+
+.p {
+  font-family: "Figtree";
+}

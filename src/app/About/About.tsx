@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <>
+    <section id="about">
       <div>
         <h2>ABOUT ME</h2>
         <Image
@@ -20,6 +20,6 @@ export default function About() {
       <div>
         <h2>MY TOOLKIT</h2>
       </div>
-    </>
+    </section>
   )
 }
