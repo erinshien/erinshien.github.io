@@ -1,26 +1,54 @@
 import 'react';
-import './ProjectCard.module.css';
+import styles from './ProjectCard.module.css';
 
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from 'next/link';
 
-export default function ProjectCard() {
+interface Icon {
+  imageUrl: string;
+  alt: string;
+};
+
+interface ProjectCardProps {
+  image: string;
+  alt: string;
+  title: string;
+  description: string;
+  icons: Icon[];
+  liveSite: string;
+  githubLink: string;
+  projectPageLink: string;
+};
+
+export default function ProjectCard({ image, alt, title, description, icons, liveSite, githubLink, projectPageLink }: ProjectCardProps) {
   return (
-    <div>
+    <div className={styles.container}>
       <Image
-        src=""
-        width={500}
-        height={500}
-        alt="Picture of final project"
+        src={image}
+        width={1080}
+        height={680}
+        alt={alt}
       />
       <div>
-        <h4>FINAL PROJECT</h4>
-        <p>App of some sort to solve a problem as described by stakeholders. More info about the project like the problem itself and the features of the app. More words and stuff.</p>
+        <h4>{title}</h4>
+        <p>{description}</p>
       </div>
       <div>
         <h5>MADE WITH</h5>
-        <h5><a href="">LIVE SITE</a> | <a href="">GITHUB</a></h5>
-        <button>FIND OUT MORE</button>
+        {icons.map(({ imageUrl, alt }, index) => (
+          <Image 
+          key={index}
+          src={imageUrl} 
+          width={50}
+          height={50}
+          alt={alt}
+          />
+        ))}
+        <h5><a href={liveSite}>LIVE SITE</a> | <a href={githubLink}>GITHUB</a></h5>
+        <Link href={projectPageLink}>
+          <button>FIND OUT MORE</button>
+        </Link>
       </div>
     </div>
   )
-}
+};

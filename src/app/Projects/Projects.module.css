@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Grifter";
+  src: url("../../../fonts/GRIFTER-Bold.otf") format("opentype");
+}
+
+.projects {
+  background-image: url(../../../images/mesh-gradient1.png);
+  height: 150vh;
+  width: 100vw;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.h2 {
+  font-family: "Grifter";
+  font-size: 4rem;
+  color: #233B3B;
+  padding-top: 4rem;
+}
