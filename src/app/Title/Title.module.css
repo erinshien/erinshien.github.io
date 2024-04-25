@@ -14,19 +14,20 @@
   width: 100vw;
   padding-left: 8rem;
   padding-right: 8rem;
+  margin-bottom: 0;
 }
 
 .image {
   position: absolute;
-  top: 84.25px;
-  right: 200px;
+  top: 0px;
+  right: 0px;
 }
 
 .firstNames {
   font-family: "Grifter";
   font-size: 8rem;
   color: #233B3B;
-  margin-top: 20rem;
+  padding-top: 16rem;
   position: relative;
 }
 
