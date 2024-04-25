@@ -37,7 +37,7 @@ const icons = [
     alt: "Node.js icon",
   },
   {
-    imageUrl: "/Shape.png",
+    imageUrl: "/Git.png",
     alt: "Git icon",
   },
   {
@@ -69,4 +69,4 @@ export default function Projects() {
       </div>
     </section>
   )
-}
+};

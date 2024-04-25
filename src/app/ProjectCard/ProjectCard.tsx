@@ -23,10 +23,10 @@ interface ProjectCardProps {
 export default function ProjectCard({ image, alt, title, description, icons, liveSite, githubLink, projectPageLink }: ProjectCardProps) {
   return (
     <div className={styles.container}>
-      <Image
+      <Image className={styles.image}
         src={image}
-        height={680}
-        width={1080}
+        height={120}
+        width={240}
         alt={alt}
       />
       <div>
@@ -39,8 +39,8 @@ export default function ProjectCard({ image, alt, title, description, icons, liv
           <Image 
           key={index}
           src={imageUrl} 
-          width={50}
-          height={50}
+          width={30}
+          height={30}
           alt={alt}
           />
         ))}
