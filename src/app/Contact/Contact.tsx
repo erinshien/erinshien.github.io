@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function Contact() {
   return (
     <section id="contact">
-      <h1>INSERT FORM HERE</h1>
+      <h3>GET IN TOUCH</h3>
       <div>
         <h3>LET'S CONNECT</h3>
         <Image
