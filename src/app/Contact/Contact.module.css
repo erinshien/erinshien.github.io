@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Grifter";
+  src: url("../../../fonts/GRIFTER-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("../../../fonts/Figtree-VariableFont_wght.ttf") format("ttf");
+}
+
+.container {
+  background-image: url('/mesh-gradient1.png');
+  height: 90vh;
+  width: 100vw;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.h3 {
+  color: #233B3B;
+  font-family: "Grifter";
+  font-size: 2rem;
+}
+
+.ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.textarea {
+  resize: none;
+}
+
+.button {
+  background-color: #E14B26;
+  color: #FFFDFC;
+  font-family: "Grifter";
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+  margin-top: 1.5rem;
+  padding-top: 0.4rem;
+  width: 8rem;
+  height: 2rem;
+  align-self: flex-end;
+  border: 0;
+  border-radius: 3px;
+}
+
+.homeLink {
+  font-family: "Figtree";
+  font-size: 1.25rem;
+  color: #E14B26;
+  text-align: center;
+}

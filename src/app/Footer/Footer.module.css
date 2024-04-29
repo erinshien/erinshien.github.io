@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Grifter";
+  src: url("../../../fonts/GRIFTER-Bold.otf") format("opentype");
+}
+
+.footer {
+  background-color: #F48EB0;
+  height: 10vh;
+  width: 100vw;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin-top: 0;
+  color: #FFFDFC;
+  font-family: "Grifter";
+  font-size: 1rem;
+  letter-spacing: .07rem;
+  text-align: center;
+}
