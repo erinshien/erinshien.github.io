@@ -3,8 +3,6 @@ import styles from './About.module.css';
 
 import Image from 'next/image'
 
-import TechIcon from '../TechIcon/TechIcon';
-
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
