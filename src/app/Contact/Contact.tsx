@@ -46,7 +46,7 @@ export default function Contact() {
           </form>
         </div>
         <div className={styles.socials}>
-          <h3 className={styles.h3}>LET'S CONNECT</h3>
+          <h3 className={styles.h3}>LET`&apos;`S CONNECT</h3>
           <FaLinkedin />
           <FaGithub />
           <SiMedium />
